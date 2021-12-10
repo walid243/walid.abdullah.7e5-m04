@@ -1,0 +1,29 @@
+h1{
+    background-color: black;
+    color: white;
+}
+header div {
+    background-color: grey;
+}
+h2{
+    display: inline-block;
+    width: 49%;
+
+}
+nav{
+    background-color: rgb(199, 199, 199);
+}
+ul li {
+    display: inline-block;
+    width: 23%;
+}
+.b{
+    height: 300px;
+    width: 300px;
+    background-color: teal;
+    float: left;
+}
+.b1 .b3{
+    
+
+}

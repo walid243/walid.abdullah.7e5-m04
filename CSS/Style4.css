@@ -1,0 +1,25 @@
+*{
+    border: 1px solid black;
+}
+.primer {
+    background-color: blue;
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+.p1{
+    float: left;
+}
+.p2{
+
+}
+.tercero{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    float: right;
+
+}
+.cuarto{
+    clear: both;
+}
