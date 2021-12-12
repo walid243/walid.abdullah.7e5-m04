@@ -1,29 +1,58 @@
+/**{*/
+/*    border: 1px solid black;*/
+/*}*/
 h1{
     background-color: black;
     color: white;
+    padding: 2%;
+    margin-bottom: 1%;
 }
 header div {
     background-color: grey;
+    padding: 1%;
 }
 h2{
     display: inline-block;
     width: 49%;
 
+
 }
 nav{
+    margin: 0.5%;
+
     background-color: rgb(199, 199, 199);
+}
+ul{
+
 }
 ul li {
     display: inline-block;
     width: 23%;
 }
+
+main section{
+    display: inline-block;
+    margin-top: 1%;
+}
 .b{
+    margin-right: 1%;
     height: 300px;
-    width: 300px;
-    background-color: teal;
+    width: 20%;
+    background-color: darkgrey;
     float: left;
 }
-.b1 .b3{
-    
+.b2{
+    float: left;
+    width: 79%;
+}
 
+.b4, .b5{
+    float: left;
+    width: 38%;
+}
+footer{
+    margin-top: 2%;
+    padding: 2%;
+    background-color: darkgrey;
+    float: left;
 }

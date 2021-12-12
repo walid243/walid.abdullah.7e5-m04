@@ -1,6 +1,3 @@
-*{
-    border: 1px solid black;
-}
 .primer {
     background-color: blue;
     float: left;
@@ -8,16 +5,19 @@
     width: 150px;
 }
 .p1{
-    float: left;
+display: block;
 }
 .p2{
-
+    margin-top: 5%;
+    width: 85%;
 }
+
 .tercero{
     background-color: blue;
     height: 150px;
     width: 150px;
     float: right;
+    margin-top: -7%;
 
 }
 .cuarto{
