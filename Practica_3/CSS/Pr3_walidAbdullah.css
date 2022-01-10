@@ -1,0 +1,9 @@
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 3%;
+    
+}
+body{
+    display: flex;
+}
