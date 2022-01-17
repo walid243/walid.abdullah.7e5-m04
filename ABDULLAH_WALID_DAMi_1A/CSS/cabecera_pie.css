@@ -23,14 +23,14 @@ nav{
   text-decoration: none;
   color: black
 }
-footer .lista_fila li a {
-  color: white;
-}
 a:hover, a:visited:hover {
- color: #8A8070;
+  color: #7ABA96;
 }
 a:visited {
   color: black;
+}
+footer .lista_fila li a {
+  color: white;
 }
 
 .footer {
