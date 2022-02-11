@@ -47,8 +47,8 @@ aside section p{
   margin-top: 6%;
   margin-bottom: 6%;
 }
-.mi_libro button {
-  width: 100%;
+.mi_libro a {
+  width: -moz-available;
   border-radius: 0;
   background-color: #70be70;
   padding: 2%;
