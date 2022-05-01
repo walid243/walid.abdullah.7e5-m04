@@ -6,20 +6,20 @@ function estiljs(){
 }
 
 
-function prenValorForm(){
+function printValorForm(){
     let elements = document.getElementsByTagName("input")
     for (let i=0; i < elements.length-1;i++){
 //  El primer console.log que se hace a veces que no se muestra y no sé como solucionarlo
         console.log(elements[i].getAttribute("value"))
     }
 }
-function backG(){
+function backGroundColor(){
     let elements = document.getElementsByTagName("p")
     for (let i = 0; i < elements.length; i++) {
         elements[i].setAttribute("style","background-color: green;")
     }
 }
-function remID(){
+function removeID(){
     let elements = document.getElementsByTagName("p")
     for (let i = 0; i < elements.length; i++) {
         elements[i].removeAttribute("id")
@@ -82,4 +82,36 @@ function createTable(){
         newTaula.appendChild(fila)
     }
     document.getElementById("deTabla").replaceChild(newTaula,old)
+}
+function showAlert(){
+    let elements = document.getElementById("select").children
+    let array = []
+    for (let i = 0; i < elements.length; i++) {
+        array.push(elements[i].getAttribute("value"))
+    }
+    alert(array)
+}
+
+function calcVol(){
+    let height = document.getElementById("alçada").value
+    let radio = document.getElementById("radio").value
+    console.log(height)
+    console.log(radio)
+    let result = parseFloat(Math.PI * (radio * radio) * height).toFixed(2)
+    console.log(result)
+    document.getElementById("result").innerText = result +" m3"
+
+}
+
+function resaltar(){
+    let elements = document.getElementsByClassName("strong")
+    for (let i = 0; i < elements.length; i++) {
+        elements[i].setAttribute("style","color:blue; font-size:2em;")
+    }
+}
+function tornaNormal(){
+    let elements = document.getElementsByClassName("strong")
+    for (let i = 0; i < elements.length; i++) {
+        elements[i].removeAttribute("style")
+    }
 }
