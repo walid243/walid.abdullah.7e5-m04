@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Empresa SYSTEM "Ejercicio5.dtd">
+<Empresa>
+  <Empleado NumEmpleado="12345678">
+    <Apellidos>
+      <Apellido1>Perez</Apellido1>
+      <Apellido2>Lopez</Apellido2>
+    </Apellidos>
+    <Nombre>Juan</Nombre>
+    <Telefono>666 555 444</Telefono>
+    <Direccion Calle="arcadio pardiñas" CP="09120" />
+  </Empleado>
+</Empresa>

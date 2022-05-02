@@ -1,0 +1,47 @@
+nav{
+    position: sticky;
+    top: 0%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-bottom: 1%;
+    background-color: white;
+    width: 100%;
+    padding: 1%;
+}
+.lista_fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.lista_fila li {
+    margin-right: 1%;
+    margin-left: 1%;
+    list-style: none;
+}
+
+ a:link{
+  text-decoration: none;
+  color: black
+}
+footer .lista_fila li a {
+  color: white;
+}
+a:visited:hover {
+ color: #7ABA96;
+}
+a:hover {
+  color: #7ABA96;
+ }
+a:visited {
+  color: black;
+}
+
+.footer {
+  margin-top: 2%;
+  width: 100%;
+  background-color: black;
+  padding: 2%;
+}
+.footer .lista_fila{
+  color: white;
+}

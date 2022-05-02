@@ -1,0 +1,13 @@
+<!ELEMENT Empresa (Empleado)+>
+<!ELEMENT Empleado (Apellidos, Nombre, (Email | Telefono), Direccion)>
+<!ATTLIST Empleado NumEmpleado CDATA #REQUIRED>
+<!ELEMENT Apellidos (Apellido1, Apellido2)>
+<!ELEMENT Apellido1 (#PCDATA)>
+<!ELEMENT Apellido2 (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Telefono (#PCDATA)>
+<!ELEMENT Direccion EMPTY>
+<!ATTLIST Direccion Calle CDATA #REQUIRED>
+<!ATTLIST Direccion CP CDATA #REQUIRED>
+<!ATTLIST Direccion Ciudad CDATA #IMPLIED>

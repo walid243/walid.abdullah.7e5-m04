@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../CSS/cabecera_pie.css">
+    <link rel="stylesheet" href="../CSS/registro.css">
+  </head>
+  <body>
+    <header>
+  		<img class="" src="../Media/imagenes/Logo-Delicias.png" alt="Logo-Delicias.png">
+  	</header>
+      <nav>
+      <ul class="lista_fila">
+        <li><a href="../index.html">INICIO</a></li>
+      	<li><a href="#sobre_mi">SOBRE MÍ</a></li>
+  	    <li><a href="../Listado/lista.html">RECETAS</a></li>
+  	    <li><a href="#contacto">CONTACTO</a></li>
+        <li><a href="registro.html">OTRAS COSAS</a></li>
+      </ul>
+  	</nav>
+    <main>
+
+      <fieldset class="registro">
+            <legend>Formulario Registro</legend>
+          <form class="" action="../index.html" method="get">
+            <div class="nivel_1">
+            <div class="datos_pers">
+              <div class="">
+
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" value="">
+            </div>
+
+            <div class="">
+              <label for="apellidos">Apellidos</label>
+              <input type="text" id="apellidos" name="apellidos" value="">
+            </div>
+
+            <div class="">
+              <label for="fechanacimiento">Fecha Nacimiento</label>
+              <input type="date" id="fechanacimiento" name="fechanacimiento" value="">
+            </div>
+
+            <div class="">
+              <label for="sexoSelect">Sexo</label>
+              <select class="" id="sexoSelect" name="sexoSelect">
+                <option value="null" selected>-</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="ambos">Ambos</option>
+              </select>
+            </div>
+
+            </div>
+
+              <div class="datos_usu">
+                <div class="">
+                <label for="nombreUsuario">Usuario</label>
+                <input type="text" id="nombreUsuario" name="nombreUsuario" value="">
+              </div>
+
+              <div class="">
+                <label for="contrasenya">Contraseña</label>
+                <input type="password" id="contrasenya" name="contrasenya" value="">
+              </div>
+
+              <div class="">
+                <label for="email">Correo Electronico</label>
+                <input type="email" id="email" name="email" value="">
+              </div>
+            </div>
+          </div>
+            <button class="boton" type="submit" name="enviar">enviar</button>
+        </form>
+      </fieldset>
+      <fieldset class="comentario">
+        <legend>Formulario comentario</legend>
+        <form class="" action="../index.html" method="get">
+          <label for="email">Correo Electronico</label>
+          <input type="email" id="email" name="email" value="">
+          <label for="comentario">Escriba su comentario aquí</label>
+          <textarea id="comentario" name="comentario" rows="8" cols="80"></textarea>
+          <button class="boton" type="submit" name="enviar">enviar</button>
+        </form>
+      </fieldset>
+      <fieldset class="receta">
+        <legend>Formulario Receta</legend>
+        <form class="" action="../index.html" method="get">
+          <div class="nivel_2">
+          <div class="">
+            <label for="titulo_receta">Titulo de la Receta</label>
+            <input type="text" id="titulo_receta" name="titulo_receta" value="">
+          </div>
+          <div class="">
+            <label for="descripcion">Descripcion</label>
+            <textarea name="descripcion" id="descripcion" rows="2" cols="30" maxlength="60"></textarea>
+          </div>
+          <div class="">
+            <label for="dificultad">Dificultad</label>
+            <select class="" name="dificultad">
+              <option value="baja">Baja</option>
+              <option value="media">Media</option>
+              <option value="alta">Alta</option>
+            </select>
+          </div>
+          <div class="">
+            <label for="tiempo">Tiempo</label>
+            <input type="text" id="tiempo" name="tiempo" value="">
+          </div>
+          <div class="">
+            <label for="autor">Autor</label>
+            <input type="text" id="autor" name="autor" value="">
+          </div>
+          <div class="">
+            <label for="receta">Receta</label>
+            <textarea id="receta" name="receta" rows="8" cols="80"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="boton" name="button">enviar</button>
+        </form>
+      </fieldset>
+    </main>
+    <footer id="contacto" class="footer">
+      <ul class="lista_fila">
+          <li><a href="https://www.facebook.com">FACEBOOK</a></li>
+          <li><a href="https://twitter.com/">TWITTER</a></li>
+          <li><a href="https://www.instagram.com">INSTAGRAM</a></li>
+          <li><a href="https://pinterest.com">PINTEREST</a></li>
+          <li><a href="https://login.live.com">EMAIL</a></li>
+          <li>RSS</li>
+      </ul>
+    </footer>
+  </body>
+</html>

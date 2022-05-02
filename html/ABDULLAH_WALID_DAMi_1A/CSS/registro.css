@@ -1,0 +1,53 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.registro {
+  width: 50%;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d4d4d447;
+}
+.nivel_1{
+  width: 100%;
+display: flex;
+flex-direction: row;
+  justify-content: space-around;
+}
+.nivel_1 div {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.boton{
+  background-color: #70be70;
+  width: 100%;
+  font-size: 200%;
+}
+.nivel_2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.nivel_2 div{
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

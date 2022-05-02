@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<alumno>
+    <nombre>Juan</nombre>
+    <apellido>García</apellido>
+    <fecha_de_nacimiento>23 de Febrero 2001</fecha_de_nacimiento>
+    <lugar>Barcelona</lugar>
+</alumno>

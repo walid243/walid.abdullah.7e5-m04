@@ -1,0 +1,10 @@
+h1{ color: red;}
+h2 {color: gray; text-decoration: underline;}
+p {
+    font-style: oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Franky, .Avi, .Boris, .Tony {
+    color: orangered;
+}
+li{list-style-type: upper-roman;}

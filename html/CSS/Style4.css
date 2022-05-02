@@ -1,0 +1,25 @@
+.primer {
+    background-color: blue;
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+.p1{
+display: block;
+}
+.p2{
+    margin-top: 5%;
+    width: 85%;
+}
+
+.tercero{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    float: right;
+    margin-top: -7%;
+
+}
+.cuarto{
+    clear: both;
+}

@@ -1,0 +1,40 @@
+*{border: 1px solid;
+margin: 10px;
+padding: 10px;}
+h1{ color: red;}
+.produccion{color:#DCDCDC; text-decoration: underline;}
+.sinopsis{color:#A9A9A9;text-decoration: underline;}
+.actores{color:#808080;text-decoration: underline;}
+.url{color: #696969;text-decoration: underline;}
+p {
+    font-style: oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Franky{background-color: rgb(3, 102, 33);
+color: grey;}
+.Avi{background-color: rgb(82, 162, 238);
+color: purple;}
+.Boris{background-color: chartreuse;
+color: red;}
+.Tony{background-color: #900000;
+color: green;}
+li{list-style-type: upper-roman;}
+
+ol li:nth-child(3){
+    color: grey;
+    background-color: green;
+}
+ol li:nth-child(4){
+    color: purple;
+    background-color: rgb(51, 156, 255);
+}
+ol li:nth-child(5){
+    color:green;
+    background-color: #900000;
+}
+ol li:nth-child(6){
+    color: red;
+    background-color: chartreuse;
+}
+ul li a {color: rgb(0, 107, 0);}

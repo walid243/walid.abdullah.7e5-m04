@@ -1,0 +1,67 @@
+/ > cat //prediccion/dia[3]/temperatura/maxima/text()
+ -------
+15
+/ > cat //prediccion/dia[3]/temperatura/minima/text()
+ -------
+7
+/ > cat //prediccion/dia[1]/temperatura/dato[3]/text()
+ -------
+7
+/ > cat //prediccion/dia[1]/estado_cielo/@descripcion
+ -------
+ descripcion="Despejado"
+ -------
+ descripcion="Despejado"
+ -------
+ descripcion="Despejado"
+ -------
+ descripcion="Despejado"
+ -------
+ descripcion="Despejado"
+ -------
+ descripcion="Despejado"
+ -------
+ descripcion="Despejado"
+/ > cat //prediccion/dia[2]/cota_nieve_prov/text()
+/ > 
+
+/ > cat //prediccion/dia[2]/humedad_relativa/*/text()
+ -------
+60
+ -------
+30
+ -------
+55
+ -------
+30
+ -------
+50
+ -------
+55
+/ > cat //uv_max/text()
+ -------
+2
+ -------
+2
+ -------
+2
+ -------
+2
+ -------
+2
+/ > cat //dia/@fecha
+ -------
+ fecha="2022-01-28"
+ -------
+ fecha="2022-01-29"
+ -------
+ fecha="2022-01-30"
+ -------
+ fecha="2022-01-31"
+ -------
+ fecha="2022-02-01"
+ -------
+ fecha="2022-02-02"
+ -------
+ fecha="2022-02-03"
+/ > 

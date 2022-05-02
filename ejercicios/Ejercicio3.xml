@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE matricula SYSTEM "matricula.dtd">
+<matricula>
+  <ciclo></ciclo>
+  <alumno>
+      <nombre></nombre>
+      <year></year>
+      <asignaturas>
+        <asignatura></asignatura>
+      </asignaturas>
+  </alumno>
+</matricula>

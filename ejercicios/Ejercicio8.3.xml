@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<obras>
+    <obra>
+      <nombre>Azul sobre blanco</nombre>
+      <tipo>cuadro abstracto</tipo>
+      <autor>Pere Àguila</autor>
+      <fecha>2014</fecha>
+      <formato>óleo</formato>
+    </obra>
+    <obra>
+      <nombre>Gris oscuro</nombre>
+      <tipo>cuadro abstracto</tipo>
+      <autor>Pere Àguila</autor>
+      <fecha>2010</fecha>
+      <formato>acuarela</formato>
+    </obra>
+    <obra>
+      <nombre>Camino largo</nombre>
+      <tipo>escultura de marmol</tipo>
+      <autor>Marta Lambert</autor>
+      <fecha>1981</fecha>
+      <formato>mármol</formato>
+    </obra>
+</obras>

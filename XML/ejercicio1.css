@@ -1,0 +1,15 @@
+centro {
+height: 300px;
+width: 300px;
+}
+classe {
+    border: 1px solid green;
+}
+assignatura{
+    color: green;
+}
+profesor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
