@@ -111,3 +111,12 @@ button:hover, button:focus{
     align-items: center;
 }
 
+.correct{
+    background-color: green;
+}
+.regular{
+    background-color: yellow;
+}
+.incorrect{
+    background-color: red;
+}
