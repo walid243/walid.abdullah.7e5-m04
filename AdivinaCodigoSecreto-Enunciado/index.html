@@ -9,7 +9,7 @@
     <title>Número secreto</title>
 </head>
 
-<body onload="generateCode(); generateTryCell()">
+<body onload="generateCode(); generateTryCell(); tryDialog()">
     <main>
         <h1>Adivina el número secreto</h1>
         <section id="codigo" class="flex wrap center">
@@ -33,12 +33,12 @@
         </section>
         <section class="w100 flex wrap center comprobar">
             <label class="w90" for="numero">Escribe aquí un número</label><br>
-            <input class="w90" type="number" id="numero" name="numero" value="01234" minlength="5" maxlength="5"><br>
+            <input class="w90" type="text" id="numero" name="numero" value="01234" maxlength="5"><br>
             <button class="w90" id="check" onclick="checkCode()">Comprobar</button>
             
         </section>
         <section class="w100 info">
-        <p class="w90" id="info">Primer intento, suerte!</p>
+        <p class="w90" id="info"></p>
         </section>
         <section id="Result" class="flex wrap center">
             <!-- Esto debereís generarlo más adelante por código -->

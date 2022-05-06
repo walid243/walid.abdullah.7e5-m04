@@ -1,12 +1,12 @@
 const codigo = [];
-const maxIntento = 4;
+const maxIntento = 2;
 let intento = 0;
 /*1. Genera una constante CODIGO_SECRETO de tipo array de 5 número aleatorios entre 0 y 9 usando la libreria Math.random();*/
 function generateCode() {
     for (let i = 0; i < 5; i++) {
         codigo[i] = Math.floor((Math.random() * 10));
     }
-    console.log(codigo)
+    // console.log(codigo)
 }
 
 function getCode() {
@@ -40,14 +40,28 @@ function checkCode(){
         document.getElementById("check").setAttribute("style","display:none")
     }else{
         intento++
+        tryDialog()
+
     }
     if (intento === maxIntento){
         document.getElementById("info").innerText = "You Lose!"
         document.getElementById("check").setAttribute("style","display:none")
+        for (let i = 0; i < myCode.length; i++) {
+            secretCells[i].innerHTML = codigo[i]
+        }
     }
 
 }
+function tryDialog(){
+    if (intento === 0){
+        document.getElementById("info").innerText = "Primer intento, suerte!"
+    } else if (intento === maxIntento-1){
+        document.getElementById("info").innerText = "Ultimo intento, suerte!"
+    }else{
+        document.getElementById("info").innerText = intento+1+"ª intento, suerte!"
+    }
 
+}
 
 function generateCellStructure(row){
     let tryCel = document.createElement("div")
